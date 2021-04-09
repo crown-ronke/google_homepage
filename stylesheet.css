@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+nav img{
+    height: 20px;
+}
+
+main{
+    width: 50%;
+    margin:13em auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid gray;
+    
+}
+
+.btns{
+    margin-top: 1em;
+}
+
+.btns button{
+    padding: 1em;
+    border: none;
+}
+
+button:hover{
+    color: royalblue;
+}
+
+footer{
+    background-color: gainsboro;
+    bottom: 30%;
+}
+
+.footer-top{
+    padding: 0.5em 1em;
+}
+
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.left a{
+    text-decoration:none;
+    margin-right: 1em;
+    color: black;
+}
+
+.right a{
+    margin-right: 1em;
+    text-decoration:none;
+    color: black;
+}
+
+.right a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+
+.left a:hover{
+    color: red;
+    text-decoration: underline;
+}
